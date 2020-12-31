@@ -21,6 +21,7 @@ app.command('pools', ctx => {
   pool_list.push("\nPool TIGER (@TigerPool)");
   pool_list.push("\nPool VADA (@vadasupport)");
   pool_list.push("\nPool ADPL (@ADPL_AdaPlus)");
+  pool_list.push("\nPool CUDA (@poolCUDA)");
     
   Lib.shuffle(pool_list);
   for(let i = 0; i < pool_list.length; i++)
