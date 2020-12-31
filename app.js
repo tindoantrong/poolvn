@@ -18,6 +18,9 @@ app.command('pools', ctx => {
   pool_list.push("\nPool AVN (@ThuanCapitalStaking)");
   pool_list.push("\nPool ADAVN (@adavn)");
   pool_list.push("\nPool FIMI - FIDA (@StakingADA)");
+  pool_list.push("\nPool TIGER (@TigerPool)");
+  pool_list.push("\nPool VADA (@vadasupport)");
+  pool_list.push("\nPool ADPL (@ADPL_AdaPlus)");
     
   Lib.shuffle(pool_list);
   for(let i = 0; i < pool_list.length; i++)
